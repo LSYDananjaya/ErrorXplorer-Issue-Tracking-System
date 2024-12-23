@@ -1,0 +1,29 @@
+.Input {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  transition: background-color 0.3s ease;
+}
+
+.Input:focus {
+  background-color: rgba(255, 255, 255, 1);
+  border-color: black;
+}
+
+.Button {
+  padding: 0.75rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Button:hover {
+  background-color: #333;
+}
